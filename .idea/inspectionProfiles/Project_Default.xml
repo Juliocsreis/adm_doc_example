@@ -1,0 +1,53 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="PyPackageRequirementsInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredPackages">
+        <value>
+          <list size="1">
+            <item index="0" class="java.lang.String" itemvalue="uWSGI" />
+          </list>
+        </value>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyPep8Inspection" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+      <option name="ignoredErrors">
+        <list>
+          <option value="E701" />
+        </list>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyPep8NamingInspection" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+      <option name="ignoredErrors">
+        <list>
+          <option value="N802" />
+        </list>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyUnresolvedReferencesInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredIdentifiers">
+        <list>
+          <option value="stocks.models.Envelope.objects" />
+          <option value="stocks.models.Stock.objects" />
+          <option value="project.models.File.*" />
+          <option value="project.models.Part.*" />
+          <option value="project.models.Phase.objects" />
+          <option value="project.models.ProjectHead.objects" />
+          <option value="project.models.Project.objects" />
+          <option value="project.models.Owner.objects" />
+          <option value="common.models.Address.objects" />
+          <option value="project.models.ShareableLink.objects" />
+          <option value="appointments.models.Appointment.*" />
+          <option value="appointments.models.Service.*" />
+          <option value="events.models.Event.*" />
+          <option value="people.models.Professional.*" />
+          <option value="people.models.Guest.*" />
+          <option value="people.models.Professional.objects" />
+          <option value="people.models.Guest.objects" />
+          <option value="events.models.Event.objects" />
+          <option value="appointments.models.Appointment.objects" />
+        </list>
+      </option>
+    </inspection_tool>
+  </profile>
+</component>
